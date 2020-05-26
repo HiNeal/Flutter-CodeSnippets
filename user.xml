@@ -4,4 +4,10 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="oyshortnote" value="/**&#10; * $MARK$&#10; */&#10;" description="注释 - 段y" toReformat="false" toShortenFQNames="true">
+    <variable name="MARK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
